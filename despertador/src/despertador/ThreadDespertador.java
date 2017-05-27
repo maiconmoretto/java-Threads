@@ -38,7 +38,7 @@ public class ThreadDespertador extends Thread {
             System.out.println("segundos " + segundoS);
             if (segundo == tempo) {
                 JOptionPane.showMessageDialog(null, "DESPERTADOR");
-                System.exit(1);
+             
             }
 
 //            labelDespertador.setText(horaS + ":" + minutoS + ":" + segundoS);
