@@ -1,7 +1,11 @@
 package sensor;
 
+
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import sensor.MeuThread;
+import sensor.MeuThread;
 
 public class NovoJFrame extends javax.swing.JFrame {
 

@@ -9,7 +9,7 @@ import javax.swing.JTextField;
 
 public class MeuThread extends Thread {
 
-    Scanner sc = new Scanner(System.in);
+ 
 
     private JLabel jLabel1;
     private JTextField jTextField1;
@@ -25,17 +25,8 @@ public class MeuThread extends Thread {
 
     @Override
     public void run() {
-        String s = "s";
-        while (s == "s") {
-            int sensor = sc.nextInt();
-            String texto = sc.next();
-            for (int i = 0; i < sensor; i++) {
-                
-                jTextField1.setText(texto);
-                jLabel1.updateUI();
-            }
-
-        }
+//                jTextField1.setText(texto);
+//                jLabel1.updateUI();
 
         try {
             Thread.sleep(100);
